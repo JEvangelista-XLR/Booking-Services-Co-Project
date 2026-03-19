@@ -25,22 +25,23 @@
     </header>
 
     <article>
-        <H2 class=" text-center"> Welcome!</H2>
-        <section class="d-flex ">
+        <H2 class=" text-center mt-4"> Welcome!</H2>
+        <section class="container d-flex ms-6 anchor-wrapper mt-4">
             
             <img src="{{ url_for('static', filename='Aged-care-worker.jpg') }}"
-                class="img-fluid float-end home-img"
+                class="img-fluid float-end home-img border border-dark-subtle border-5 "
                 alt="Aged-care-worker photo">
             
-                <p class="fs-4 mt-3 mb-4 ms-3 text-start"> We are a booking service that enables parents and guardians to access the support that is needed for their children, 
+            <p class="fs-4 mt-3 mb-4 ms-5 text-start gap-5 "> We are a booking service that enables parents and guardians to access the support that is needed for their children, 
                 relatives and loved ones with disability. We provide top of the line caregiver support and have a wide range of 
                 avaliable hours to ensure that your loved one has the support and care they need.
             </p>
-            <div class="text-center">
-                <button type="button" class="btn btn-primary ">Primary</button>
-            </div> 
-           
+            
+            <button type="button" class="btn btn-primary  book-a-caregiver-btn">Book A Caregiver</button>
+            <button type="button" class="btn btn-primary  view-caregiver-avaliability-btn">View Caregiver Avaliabilities</button>
+
         </section>
+        
         
 
     </article>

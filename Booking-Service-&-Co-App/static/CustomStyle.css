@@ -11,6 +11,29 @@
 }
 
 .home-img {
-    width: 550px;
+    width: 630px;
     height: auto
+}
+
+
+.anchor-wrapper {
+    position: relative;
+}
+
+.book-a-caregiver-btn {
+    position: absolute;
+    top: 250px;
+    left: 660px;
+
+    width: 690px;
+    height: 70px;
+}
+
+.view-caregiver-avaliability-btn {
+    position: absolute;
+    top: 350px;
+    left: 660px;
+
+    width: 690px;
+    height: 70px;
 }
