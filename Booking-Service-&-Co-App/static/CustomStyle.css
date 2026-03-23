@@ -1,5 +1,5 @@
 .purple-bg { 
-    background-color: #6C3BAA;  
+    background-color: #7d56b0;  
 }
 
 .grey-bg {
@@ -37,3 +37,9 @@
     width: 690px;
     height: 70px;
 }
+
+.btn-outline-purple {
+  color: #7d56b0;        
+  border-color: #7d56b0; 
+}
+
