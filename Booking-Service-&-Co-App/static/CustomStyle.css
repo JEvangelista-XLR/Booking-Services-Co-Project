@@ -20,7 +20,7 @@
     position: relative;
 }
 
-.book-a-caregiver-btn {
+.book-a-caregiver-btn {  /*defines position*/
     position: absolute;
     top: 250px;
     left: 660px;
@@ -29,7 +29,7 @@
     height: 70px;
 }
 
-.view-caregiver-avaliability-btn {
+.view-caregiver-avaliability-btn { /*defines position*/
     position: absolute;
     top: 350px;
     left: 660px;
@@ -38,8 +38,16 @@
     height: 70px;
 }
 
-.btn-outline-purple {
-  color: #7d56b0;        
-  border-color: #7d56b0; 
+.btn-initial {   /*button initial colour before hover*/
+    background-color: #7d56b0;
+    color:#ffffff;
+    transition: transform 0.9 ease-in-out;
+
 }
 
+.btn-hover:hover{   /*button color change when mouse hovers*/
+    transform: scale(1.04);
+    background-color: #8e5daa;
+    color:#ffffff;
+
+}
