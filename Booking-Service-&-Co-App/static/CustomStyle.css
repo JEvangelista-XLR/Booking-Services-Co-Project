@@ -1,3 +1,25 @@
+body {
+    display:flex;
+    flex-direction: column; /*stacks all the elements vertically*/
+    min-height: 100vh; /*sets the body to use all the viewport space*/
+    margin: 0; /*allows body to start at top of section*/
+}
+
+main {
+  flex: 1 0 auto; /* expands the main section to fill up all the space in the viewport */
+}
+
+footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+
+
+
+
+
+
+
 .purple-bg { 
     background-color: #7d56b0;  
 }
@@ -54,3 +76,5 @@
 .footer-space{
     margin-top: auto;
 }
+
+
