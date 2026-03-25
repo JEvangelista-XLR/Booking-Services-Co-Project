@@ -13,13 +13,6 @@ footer {
   margin-top: auto; /* Pushes the footer to the bottom */
 }
 
-
-
-
-
-
-
-
 .purple-bg { 
     background-color: #7d56b0;  
 }
@@ -62,7 +55,7 @@ footer {
 .btn-initial {   /*button initial colour before hover*/
     background-color: #7d56b0;
     color:#ffffff;
-    transition: transform 0.9 ease-in-out;
+    transition: transform 9 ease-in-out;
 
 }
 
