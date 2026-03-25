@@ -15,8 +15,7 @@
     height: auto
 }
 
-
-.anchor-wrapper {
+.anchor-wrapper {   /*makes children in section positioned relative*/
     position: relative;
 }
 
@@ -50,4 +49,8 @@
     background-color: #8e5daa;
     color:#ffffff;
 
+}
+
+.footer-space{
+    margin-top: auto;
 }
