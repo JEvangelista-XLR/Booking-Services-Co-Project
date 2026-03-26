@@ -9,32 +9,36 @@
 
 </head>
 
+
 <body>
-
     {% include "header.html" %}
+    <main>
 
-    <article class="mb-5">
-        <H2 class=" text-center mt-4"> Welcome!</H2>
-        <section class="container d-flex ms-6 anchor-wrapper mt-4">
-            
-            <img src="{{ url_for('static', filename='Aged-care-worker.jpg') }}"
-                class="img-fluid float-end home-img border border-dark-subtle border-5 "
-                alt="Aged-care-worker photo">
-            
-            <p class="fs-4 mt-3 mb-4 ms-5 text-start gap-5 "> We are a booking service that enables parents and guardians to access the support that is needed for their children, 
-                relatives and loved ones with disability. We provide top of the line caregiver support and have a wide range of 
-                avaliable hours to ensure that your loved one has the support and care they need.
-            </p>
-            
-            <button type="button" class="btn book-a-caregiver-btn btn-initial btn-hover">Book A Caregiver</button>
-            <button type="button" class="btn view-caregiver-avaliability-btn btn-initial btn-hover">View Caregiver Avaliabilities</button>
+        <article class="mb-5">
+            <H2 class=" text-center mt-4"> Welcome!</H2>
+            <section class="container d-flex ms-6 anchor-wrapper mt-4">
+                
+                <img src="{{ url_for('static', filename='IMG_3019.jpeg') }}"
+                    class="img-fluid float-end home-img border border-dark-subtle border-5 "
+                    alt="Aged-care-worker photo">
+                
+                <p class="fs-4 mt-3 mb-4 ms-5 text-start gap-5 "> We are a booking service that enables parents and guardians to access the support that is needed for their children, 
+                    relatives and loved ones with disability. We provide top of the line caregiver support and have a wide range of 
+                    avaliable hours to ensure that your loved one has the support and care they need.
+                </p>
+                
+                <button type="button" class="btn book-a-caregiver-btn btn-initial btn-hover">Book A Caregiver</button>
+                <button type="button" class="btn view-caregiver-avaliability-btn btn-initial btn-hover">View Caregiver Avaliabilities</button>
 
-        </section>
+            </section>
+            
+        </article>
         
-    </article>
-    
-    {% include "footer.html" %}
+        
 
+    </main>
+    {% include "footer.html" %}
 </body>
+
 
 </html>
