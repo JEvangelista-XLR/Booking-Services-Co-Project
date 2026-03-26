@@ -55,15 +55,14 @@ footer {
 .btn-initial {   /*button initial colour before hover*/
     background-color: #7d56b0;
     color:#ffffff;
-    transition: transform 9 ease-in-out;
+    transition: transform 0.2s ease-in-out;
 
 }
 
 .btn-hover:hover{   /*button color change when mouse hovers*/
-    transform: scale(0.67);
+    transform: scale(1.01);
     background-color: #8e5daa;
     color:#ffffff;
-
 }
 
 .footer-space{
@@ -90,15 +89,19 @@ footer {
 }
 
 .nz-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('NZ_IMG.jpg');
-  background-size: cover;  /*image zoom control*/
-  background-position: 50% 60%;   /*image photo position view*/
-  height: 200px; 
-  display: flex;
-  align-items: center;      
-  justify-content: center;  
-  color: white;      /*text color*/  
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.5); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('NZ_IMG.jpg');
+    background-size: cover;  /*image zoom control*/
+    background-position: 50% 60%;   /*image photo position view*/
+    height: 200px; 
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    color: white;      /*text color*/  
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5); 
+}
+
+.link-hover:hover{   /*creates underline on text that lead to other sections of website*/
+    text-decoration: underline;
 }
