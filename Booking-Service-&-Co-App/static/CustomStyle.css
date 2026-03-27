@@ -26,7 +26,8 @@ footer {
 }
 
 .home-img {
-    width: 630px;
+    width: 100%;
+    max-width: 630px;
     height: auto
 }
 
@@ -105,3 +106,7 @@ footer {
 .link-hover:hover{   /*creates underline on text that lead to other sections of website*/
     text-decoration: underline;
 }
+
+
+
+
