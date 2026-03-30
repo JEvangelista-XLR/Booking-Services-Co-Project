@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.get("/") #"/" sets home page as root page
 def home_page(): # home page render
-    return render_template("frontendlandingsand.html")
+    return render_template("frontendlanding.html")
 
 @app.get("/about")
 def about_page(): # about page render

@@ -35,19 +35,18 @@ footer {
     position: relative;
 }
 
-.book-a-caregiver-btn {  
+.book-a-caregiver-btn {  /*sets button size*/
     margin-top: 10px;
     width: 100%;
     height: 70px;
+    font-size: 1.5rem;
 }
 
-.view-caregiver-avaliability-btn { /*defines position*/
-    position: absolute;
-    top: 350px;
-    left: 660px;
-
-    width: 690px;
+.view-caregiver-avaliability-btn { /*sets button size*/
+    margin-top: 10px;
+    width: 100%;
     height: 70px;
+    font-size: 1.4rem;
 }
 
 .btn-initial {   /*button initial colour before hover*/
@@ -61,6 +60,7 @@ footer {
     transform: scale(1.01);
     background-color: #8e5daa;
     color:#ffffff;
+
 }
 
 .footer-space{
@@ -106,4 +106,23 @@ footer {
 
 
 
+/*RESPONSIVE CODE DO NOT MOVE*/
 
+.home-grid-container {
+  display: grid;
+  grid-template-areas:
+    'main'
+    'facts'
+    'menu';
+    background-color: white;
+  gap: 10px;  
+}
+
+@media (min-width: 768px) {
+  .menu {grid-area: 3 / span 2;}
+  .content {grid-area: 2 / span 2;}
+  .facts {grid-area: 2 / span 2;}
+
+}
+
+/*RESPONSIVE CODE*/
